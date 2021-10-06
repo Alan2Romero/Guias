@@ -1,0 +1,14 @@
+i  = 0
+A = int(input("Ingrese un valor"))
+B = int(input("Ingrese otro valor"))
+
+while i == 0:  
+    R = A%B
+    if R == 0:
+        MCD = B
+        i = 1
+    else:
+        A = B
+        B = R
+print(f"El maximo comun divisor entre {A} y {B} es: {MCD}")
+
